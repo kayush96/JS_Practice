@@ -9,6 +9,8 @@ let people = [
     'Benjamin Franklin'
 ];
     //Get Franklin Roosevelt from the people array
-    console.log(people[0]);
+    const franklinRoosevelt = people[0]; 
+    console.log(franklinRoosevelt);
     //Set Thomas Edison to Inventor of the lightbulb
-    console.log(people[1]);
+    people[1] = "Inventor of the lightbulb";
+    
